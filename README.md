@@ -43,6 +43,7 @@ select distinct city from station where city regexp '^[^aeiou]'; <br>
 > do not start with vowel [^] <- not의 의미 
 
 select name from students where marks > 75 order by right(name,3), id asc; <br>
+select avg(population) from city where district='California'; <br>
 
 
 
